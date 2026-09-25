@@ -1,0 +1,109 @@
+*{
+    font-family: monospace;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    font-size: large;
+}
+body{
+
+    margin: 0%;
+   } 
+header{
+    height: 100vh;
+    color: white;
+    background-color: rgb(26, 72, 210);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+body{
+    margin: 0%;
+    background-color: azure;
+}
+h1{
+    color: rgb(26, 72, 210);
+}
+header h1{
+    font-size: 50px;
+    color: white;
+    margin: 0%;
+}
+.button{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    color: white;
+    background-color:darkblue;
+}
+main{
+    padding: 20px;
+}
+section{
+    height: 100vh;
+    border: 1px solid rgba(17, 2, 2, 0.922);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.submit{
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(26, 72, 210);
+}
+.submit:hover{
+    background-color:rgba(0, 0, 139, 0.858);
+}
+.fixedbutton{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(26, 72, 210);
+}
+footer{
+    height: 124px;
+    background-color: black;
+    color: lightgray;
+}
+div{ 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 0;
+
+
+}
+section h1{
+    font-size: 40px;
+    margin: 0%;
+    padding-top: 20px;
+
+}
+
